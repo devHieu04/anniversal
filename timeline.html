@@ -21,7 +21,6 @@
 </head>
     <body>
         <div class="buttons">
-            <a href="index.html" class="btn btn-bir">Sinh nhật</a>
             <a href="timeline.html" class="btn btn-timeline">Dòng thời gian</a>
             <a href="gallery.html" class="btn btn-gallery">Ảnh kỉ niệm</a>
         </div>
@@ -30,19 +29,23 @@
                 <div id="text">
 			        <div id="code">
 					<!-- 4. CHỈNH SỬA LỜI CHÚC CỦA BẠN TẠI ĐÂY-->
-			      <font color="#3500ff"><span class="say">Chúc mừng sinh nhật người bạn thân 3 năm qua của tui</span><br>
-						<span class="say">chúc bạn tuổi mới thật nhiều niềm vui</span><br>
-						<span class="say">thành công trong công việc</span><br>
-						<span class="say"> </span><br>
-						<span class="say">Và đặc biệt sớm tìm được người yêu thơng</span><br>
-						<span class="say">Chúc bạn sinh nhật vui vẻ.</span><br>
-						<span class="say"> </span><br>
-                        <span class="say"><span class="space"></span> ^.^ </span>
-			  </font></p>
-      </div>
+			      <<font color="#3500ff">
+                    <span class="say">Cảm ơn em bé đã bên anh trong toàn bộ thời gian qua</span><br>
+                    <span class="say">có lúc tủi thân, có lúc giận hờn,</span><br>
+                    <span class="say">nhưng anh luôn mong em sẽ mãi bên anh,</span><br>
+                    <span class="say"></span><br>
+                    <span class="say">website này được anh làm từ lâu rồi</span><br>
+                    <span class="say">nhưng hôm nay anh mới gửi được</span><br>
+                    <span class="say">vì hôm nay bọn mình mới chụp đủ hình với nhau</span><br>
+                    <span class="say">website này sẽ lưu kỉ niệm tụi mình em nhé.</span><br>
+                    <span class="say">Mãi yêu em bé :&gt;&gt;</span><br>
+                    <span class="say"></span><br>
+                    <span class="say"><span class="space"></span> ^.^ </span>
+                </font>
+        </div>
                 </div>
                 <div id="clock-box">
-					<span class="STYLE1"> Thời gian bạn xuất hiện trên cuộc đời </span>  <!--Có thể thay đổi chổ này thành số tuổi của người bạn muốn chúc -->
+					<span class="STYLE1"> Thời gian anh và bé đã bên nhau </span>  <!--Có thể thay đổi chổ này thành số tuổi của người bạn muốn chúc -->
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -52,7 +55,7 @@
 
     <!-- Phần nhạc -->
     <audio id="player" autoplay loop>
-        <source src="./music/sinhnhat.mp3" type="audio/mp3" />
+        <source src="./music/anni.mp3" type="audio/mp3" />
     </audio>
     <script>
     (function(){
@@ -181,7 +184,7 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    var year = 2004, month = 9, day = 16;  // 5. thay đổi ngày tháng năm yêu nhau tại đây hoặc ngày sinh của người mà bạn muốn chúc
+		    var year = 2023, month = 9, day = 2;  // 5. thay đổi ngày tháng năm yêu nhau tại đây hoặc ngày sinh của người mà bạn muốn chúc
 		    together.setFullYear(year, month - 1, day); 			
 		    together.setHours(0);							
 		    together.setMinutes(0);				
